@@ -1,0 +1,33 @@
+OpenGL 1.x
+
+------------------------------------------------
+2D
+
+simple1
+	 draws a white filled rectangle on a black background
+simple2
+	draws a rectangle with vertices of different colors; note the color
+	blending done by OpenGL, this is called smooth shading, and it's the
+	default. 
+simple3
+	 draws a pattern with lines, points and polygons 
+simple4
+	draw an n-gon with n vertices. 
+	Features:
+	- number of vertices can be increased/decreased  with <,>
+   	- the radius can be increased/decreased with +, -
+    	- moving left/right/up/dpwn when the user presses l/r/u/d keys
+	The movement is implemented by applying a translation to move the
+	local coordinate system.
+simple5
+	same as simple4, but demonstrates a timerfunc(). 
+	
+
+------------------------------------------------
+3D
+
+simple6
+	draws a cube in 3D
+simple7
+	simple6 + moving l/r/u/d and rotations x/X/y/Y/z/Z. 
+
